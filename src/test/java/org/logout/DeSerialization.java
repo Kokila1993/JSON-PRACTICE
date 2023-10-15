@@ -26,6 +26,8 @@ public class DeSerialization {
 		Batters batters = readValue.getBatters();
 		ArrayList<Batter> batter = batters.getBatter();
 		
+//		Iteration
+		
 		for (int i = 0; i <batter.size() ; i++) {
 			
 			System.out.println(batter.get(i).getId());
